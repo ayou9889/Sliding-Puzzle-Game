@@ -30,7 +30,7 @@ if(window.innerHeight < window.innerWidth){
     sw=600;
 }
 document.body.style=`
-    font-family:tahoma;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height:100%;
     display:flex;
     flex-direction:column;
@@ -148,6 +148,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
