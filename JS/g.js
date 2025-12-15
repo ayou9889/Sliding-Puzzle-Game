@@ -36,7 +36,6 @@ document.body.style=`
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    overflow:hidden;
     background-color:#2f3957;
     margin:0;
 `;
@@ -149,5 +148,6 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
