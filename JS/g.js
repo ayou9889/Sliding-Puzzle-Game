@@ -44,7 +44,7 @@ container.style=`
     width:${sw}px;
     height:${sw}px;
     box-sizing:border-box;
-    background-color:black;
+    background-color:white;
     display:flex;
     flex-wrap:wrap;
     outline:2px solid white;
@@ -149,4 +149,5 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
