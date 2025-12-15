@@ -22,7 +22,7 @@ logo.style=`
     display:flex;
     align-items:center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 5px;
 `;
 t.textContent="Sliding Puzzle Game";
 let sw=(window.innerWidth*0.96).toFixed();
@@ -149,3 +149,4 @@ for(let i=0;i<3;i++){
     }
 
 }
+
