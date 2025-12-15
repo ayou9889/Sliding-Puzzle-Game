@@ -25,7 +25,7 @@ logo.style=`
     gap: 5px;
 `;
 t.textContent="Sliding Puzzle Game";
-let sw=(window.innerWidth*0.96).toFixed();
+let sw=Math.floor((window.innerWidth*0.96));
 if(window.innerHeight < window.innerWidth){
     sw=600;
 }
@@ -78,7 +78,7 @@ document.body.appendChild(yw);
 
 const M=[],P=[],W={i:0,j:0},PR=[];
 let isC=false;
-const wah=(sw/3).toFixed();
+const wah=Math.floor((sw/3));
 
 for(let i=0;i<3;i++){
     M.push([]);
@@ -148,6 +148,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
