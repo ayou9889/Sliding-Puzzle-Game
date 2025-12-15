@@ -13,7 +13,6 @@ logo.appendChild(logoa);
 logo.style=`
     position:absolute;
     font-weight:800;
-    width:190px;
     right:0;
     bottom:0;
     padding:10px;
@@ -23,6 +22,7 @@ logo.style=`
     display:flex;
     align-items:center;
     justify-content: space-between;
+    gap: 10px;
 `;
 t.textContent="Sliding Puzzle Game";
 let sw=(window.innerWidth*0.96).toFixed();
@@ -147,4 +147,5 @@ for(let i=0;i<3;i++){
             break;
         M[i][j].style.backgroundPosition=`${PR[i][j][0]}px ${PR[i][j][1]}px`;
     }
+
 }
