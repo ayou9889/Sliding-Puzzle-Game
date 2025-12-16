@@ -46,9 +46,9 @@ container.style=`
     background-color:white;
     display:flex;
     flex-wrap:wrap;
-    outline:2px solid white;
     justify-content: center;
     align-content: center;
+    outline:2px solid white;
 `;
 t.style=`
     margin:0;
@@ -150,6 +150,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
