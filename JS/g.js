@@ -47,6 +47,8 @@ container.style=`
     display:flex;
     flex-wrap:wrap;
     outline:2px solid white;
+    justify-content: center;
+    align-content: center;
 `;
 t.style=`
     margin:0;
@@ -148,6 +150,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
