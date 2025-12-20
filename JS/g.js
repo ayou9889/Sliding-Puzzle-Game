@@ -11,7 +11,7 @@ logo.textContent="Made in Morocco by";
 logoa.appendChild(logoimg);
 logo.appendChild(logoa);
 logo.style=`
-    position:absolute;
+    position:fixed;
     font-weight:800;
     right:0;
     bottom:0;
@@ -150,6 +150,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
