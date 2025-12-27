@@ -4,6 +4,7 @@ const logo=document.createElement("div");
 const logoimg=document.createElement("img");
 const logoa=document.createElement("a");
 logoimg.setAttribute("src","Images/logo.png");
+logoimg.setAttribute("alt","Ayoub Oufaddoul Logo");
 logoimg.style.width="25px";
 logoa.setAttribute("href","https://oufaddoul.com/");
 logoa.setAttribute("title","Ayoub Oufaddoul");
@@ -150,6 +151,7 @@ for(let i=0;i<3;i++){
     }
 
 }
+
 
 
 
